@@ -6,32 +6,32 @@ h1{
     margin: auto;
     text-align: center;
 }
-/**/
+/*indents the first paragraphs of each section*/
 p.eat-drink, p.visit{
     text-indent: 10%;
 }
-/**/
+/*changes color of elements with visit class*/
 .visit{
     color: darkblue;
 }
-/**/
+/*emphasizes 3rd restaurant list item*/
 .restaurants li:nth-child(3){
     text-transform: uppercase;
     color: blue;
 }
-/**/
+/*sets unvisited link to green*/
 a:link{
     color: green;
 }
-/**/
+/*sets visited link to blue*/
 a:visited{
     color: blue;
 }
-/**/
+/*highlights link with black when hovered*/
 a:hover{
     background-color: black;
 }
-/**/
+/*sets link to red when active*/
 a:active{
     color: red;
 }
